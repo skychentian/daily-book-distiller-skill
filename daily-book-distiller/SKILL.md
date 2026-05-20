@@ -97,6 +97,8 @@ Avoid:
 
 Default output should be mobile-friendly:
 
+- Match the user's language by default
+- If the user's normal working language is Chinese, output in natural Chinese
 - Concise
 - Short paragraphs
 - High information density

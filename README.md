@@ -35,6 +35,15 @@ daily-book-distiller/
 └── SKILL.md
 ```
 
+Example install path for Hermes Agent:
+
+```bash
+mkdir -p ~/.hermes/skills/personal-growth/daily-book-distiller
+cp daily-book-distiller/SKILL.md ~/.hermes/skills/personal-growth/daily-book-distiller/SKILL.md
+```
+
+The skill itself does not include private memory. The agent using it should read its own memory/profile/recent context at runtime.
+
 ## Suggested scheduled prompt
 
 ```text
